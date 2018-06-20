@@ -19,6 +19,19 @@
     </properties>
 
     <dependencies>
+        <!-- 用于mongoDB实体类 -->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-mongodb</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.mongodb</groupId>
+                    <artifactId>mongo-java-driver</artifactId>
+                </exclusion>
+            </exclusions>
+            <version>1.10.10.RELEASE</version>
+        </dependency>
+
         <!-- 自带的junit -->
         <dependency>
             <groupId>junit</groupId>

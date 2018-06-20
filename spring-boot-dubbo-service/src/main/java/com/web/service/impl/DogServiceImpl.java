@@ -11,7 +11,7 @@ import java.util.Map;
  * Created by FengKai on 2018/6/8.
  * Provider 实现
  */
-@Service(interfaceClass = IDogService.class)
+@Service(interfaceClass = IDogService.class, timeout = 10000)
 @Component
 public class DogServiceImpl implements IDogService {
 

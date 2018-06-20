@@ -45,6 +45,12 @@
             <artifactId>zkclient</artifactId>
             <version>0.10</version>
         </dependency>
+        <!-- JSON转换工具包 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.32</version>
+        </dependency>
         <!-- 服务提供者暴露的接口定义api -->
         <dependency>
             <groupId>com.web</groupId>
